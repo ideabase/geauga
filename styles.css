@@ -1,0 +1,62 @@
+
+
+/*------------------------------
+	GLOBAL
+------------------------------*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4;
+	color: #444;
+}
+
+#templateContainer {
+	width: 600px;
+	background-color: #F4F4F4;
+	
+}
+
+
+/*------------------------------
+	TYPOGRAPHY
+------------------------------*/
+
+h1,h2,h3,h4,h5,h6,p {margin-top: 0}
+
+.intro {
+	color: #7A7A7A;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 25px;
+	font-weight: bold;
+	color: #4994CB;
+	text-transform: uppercase;
+	margin-bottom: 14px;
+	letter-spacing: .1em;
+}
+
+
+/*------------------------------
+	HEADER
+------------------------------*/
+
+.headerContent {
+	height: 346px;
+	background-image: url("img/header.jpg");
+	background-size: cover;
+}
+
+
+
+/*------------------------------
+	BODY
+------------------------------*/
+
+.section {
+	border: solid 1px #CCC;
+	background-color: white;
+	padding: 20px;
+}

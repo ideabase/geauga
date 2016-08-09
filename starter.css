@@ -11,18 +11,11 @@ img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized imag
 /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
 body{margin:0; padding:0;}
 img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
-table{border-collapse:collapse !important;}
 body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:100% !important;}
 
 /* ========== Page Styles ========== */
 
     #bodyCell{padding:20px;}
-
-    #templateContainer{
-      width:600px;
-      background-color: #F4F4F4;
-      font-family: Helvetica, Arial, sans-serif;
-    }
 
     /**
     * @tab Page
@@ -58,34 +51,17 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     }
 
     .preheaderContent a:link, .preheaderContent a:visited, /* Yahoo! Mail Override */ .preheaderContent a .yshortcuts /* Yahoo! Mail Override */{
-      /*@editable*/ color:#606060;
-      /*@editable*/ font-weight:normal;
-      /*@editable*/ text-decoration:underline;
-    }
-
-    /* Header */
-
-    #templateHeader{
-    }
-
-    .headerContent {
-      height: 346px;
-      background-image: url("img/header.jpg");
-      background-size: cover;
+      color: #4994CB;
     }
 
     /* Body */
 
     #templateBody{
-      /*@editable*/ background-color: white;
-      /*@editable*/ border-top:1px solid #FFFFFF;
+
       /*@editable*/ border-bottom:1px solid #CCCCCC;
     }
 
     .bodyContent{
-      /*@editable*/ color:#505050;
-      /*@editable*/ font-size:16px;
-      /*@editable*/ line-height:150%;
       padding-top:20px;
       padding-right:20px;
       padding-bottom:30px;
@@ -94,9 +70,9 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     }
 
     .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
-      /*@editable*/ color: black;
-      /*@editable*/ font-weight:normal;
-      /*@editable*/ text-decoration:underline;
+      color: #4994CB;
+      font-weight: bold;
+      text-decoration: none;
     }
 
     .bodyContent img{
@@ -203,31 +179,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 
 /* Custom Styles */
 
-body,
-table.body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-td,
-th,
-a {
-  color: #0a0a0a;
-  font-weight: normal;
-  padding: 0;
-  margin: 0;
-  Margin: 0;
-  text-align: left;
-}
 
-p {
-  color: black;
-  margin-top: 10px;
-  margin-bottom: 15px;
-}
 
 .sansSerifCustom {
   font-family: "Lato", Helvetica, Arial, sans-serif;
