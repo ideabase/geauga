@@ -5,7 +5,7 @@
 ------------------------------*/
 
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 	font-size: 16px;
 	line-height: 1.4;
 	color: #444;
@@ -16,6 +16,8 @@ body {
 	background-color: #F4F4F4;
 	
 }
+
+a:hover {opacity: .7}
 
 
 /*------------------------------
@@ -32,10 +34,31 @@ h1,h2,h3,h4,h5,h6,p {margin-top: 0}
 h2 {
 	font-size: 25px;
 	font-weight: bold;
-	color: #4994CB;
+	color: #5d7fb8;
 	text-transform: uppercase;
-	margin-bottom: 14px;
+	margin-bottom: 20px;
 	letter-spacing: .1em;
+}
+
+h3 {
+	font-size: 20px;
+	color: #646464;
+	margin-bottom: 12px;
+}
+
+h4 {
+	margin-bottom: 8px;
+
+}
+
+.featured h2 {
+	color: #EEBC33;
+	font-size: 23px;
+	font-weight: normal;
+}
+
+.featured .intro {
+	color: white;
 }
 
 
@@ -58,5 +81,31 @@ h2 {
 .section {
 	border: solid 1px #CCC;
 	background-color: white;
-	padding: 20px;
+	padding: 30px 26px;
+	border-radius: 3px;
+}
+
+.featured {
+	background-color: #244677;
+	color: white;
+	letter-spacing: .015em;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+}
+
+
+
+
+
+
+/*------------------------------
+	FOOTER
+------------------------------*/
+
+#contact {
+	padding-left: 50px;
+}
+
+.contact-info {
+	width: 480px;
 }

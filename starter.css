@@ -57,15 +57,13 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     /* Body */
 
     #templateBody{
-
-      /*@editable*/ border-bottom:1px solid #CCCCCC;
     }
 
     .bodyContent{
       padding-top:20px;
-      padding-right:20px;
+      padding-right:18px;
       padding-bottom:30px;
-      padding-left:20px;
+      padding-left:18px;
       /*@editable*/ text-align:left;
     }
 
@@ -114,17 +112,23 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 
     /* Buttons */
 
+    #ctaButton {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+
     .cta p {
       text-align: center;
     }
 
     .ctaButton {
-      background-color: black;
+      background-color: #4994CB;
       text-align: center;
       padding-top: 15px;
       padding-bottom: 15px;
-      border: 3px solid gray;
     }
+
+
 
     .ctaButton a {
       width: 100%;
@@ -133,7 +137,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     }
 
     .ctaButton:hover {
-      background-color: gray;
+      background-color: #357cb0;
     }
 
     .bodyContent .ctaButton a:link, .bodyContent .ctaButton a:visited {
@@ -141,11 +145,12 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       text-decoration: none;
     }
 
+    .ctaButton a:hover {opacity: 1}
+
     /* Footer */
 
     #templateFooter{
       /*@editable*/ background-color:#F4F4F4;
-      /*@editable*/ border-top:1px solid #FFFFFF;
     }
 
     .footerContent{
