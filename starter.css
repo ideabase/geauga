@@ -17,7 +17,12 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 /* ========== Page Styles ========== */
 
     #bodyCell{padding:20px;}
-    #templateContainer{width:525px;}
+
+    #templateContainer{
+      width:600px;
+      background-color: #F4F4F4;
+      font-family: Helvetica, Arial, sans-serif;
+    }
 
     /**
     * @tab Page
@@ -37,7 +42,6 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 
     .preheaderContent{
       /*@editable*/ color:#808080;
-      /*@editable*/ font-family:Helvetica;
       /*@editable*/ font-size:10px;
       /*@editable*/ line-height:155%;
       /*@editable*/ text-align:left;
@@ -62,17 +66,12 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     /* Header */
 
     #templateHeader{
-      /*@editable*/ background-color: white;
-      /*@editable*/ border-top:1px solid #FFFFFF;
     }
 
     .headerContent {
-      padding-top:15px;
-      padding-right:20px;
-      padding-bottom:15px;
-      padding-left:20px;
-      text-align: center;
-      font-family: Helvetica, Arial, sans-serif;
+      height: 346px;
+      background-image: url("img/header.jpg");
+      background-size: cover;
     }
 
     /* Body */
@@ -92,7 +91,6 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       padding-bottom:30px;
       padding-left:20px;
       /*@editable*/ text-align:left;
-      font-family: Helvetica, Arial, sans-serif;
     }
 
     .bodyContent a:link, .bodyContent a:visited, /* Yahoo! Mail Override */ .bodyContent a .yshortcuts /* Yahoo! Mail Override */{
