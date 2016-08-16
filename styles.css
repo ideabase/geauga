@@ -155,8 +155,11 @@ h4 {
 .contact-info .column {
 	border-left: solid 1px #666;
 	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .contact-info .column:first-child {
 	border-left: none;
+	padding-left: 0;
 }
