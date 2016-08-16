@@ -37,9 +37,6 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 
     /* Body */
 
-    #templateBody{
-    }
-
     .bodyContent{
       padding-top:20px;
       padding-right:18px;
@@ -111,8 +108,6 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
       padding-bottom: 15px;
     }
 
-
-
     .ctaButton a {
       width: 100%;
       display: block;
@@ -134,6 +129,7 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
 
     #templateFooter{
       /*@editable*/ background-color:#F4F4F4;
+      padding-bottom: 10px;
     }
 
     .footerContent{
@@ -166,8 +162,6 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     }
 
 /* Custom Styles */
-
-
 
 .sansSerifCustom {
   font-family: "Lato", Helvetica, Arial, sans-serif;
