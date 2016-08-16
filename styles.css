@@ -43,8 +43,15 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	color: #646464;
-	margin-bottom: 12px;
+	color: #969696;
+	margin-bottom: 10px;
+	letter-spacing: .01em;
+}
+
+.table-header {
+	color: #5d7fb8;
+	font-weight: normal;
+	margin-top: 12px;
 }
 
 h4 {
@@ -69,6 +76,7 @@ h4 {
 #templatePreheader {
 	background-color: #15263F;
 	color: white;
+	letter-spacing: .01em;
 }
 
 .logo {
@@ -107,6 +115,21 @@ h4 {
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	font-weight: lighter;
 }
+
+.data-table {
+	padding-bottom: 32px;
+	border: none;
+	border-top: solid 1px #ccc;
+}
+
+
+.data-table td {
+	border: none;
+	border-bottom: solid 1px #ccc;
+	padding: 16px 10px;
+}
+
+
 
 
 
