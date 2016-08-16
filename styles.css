@@ -43,14 +43,13 @@ h2 {
 
 h3 {
 	font-size: 20px;
-	color: #969696;
+	color: #5d7fb8;
+	font-weight: normal;
 	margin-bottom: 10px;
 	letter-spacing: .01em;
 }
 
 .table-header {
-	color: #5d7fb8;
-	font-weight: normal;
 	margin-top: 12px;
 }
 
