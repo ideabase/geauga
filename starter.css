@@ -56,7 +56,6 @@ body, #bodyTable, #bodyCell{height:100% !important; margin:0; padding:0; width:1
     .bodyContent img{
       display:inline;
       height:auto;
-      max-width:100%;
     }
 
     .column {
