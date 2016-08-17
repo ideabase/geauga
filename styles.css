@@ -140,26 +140,41 @@ h4 {
 ------------------------------*/
 
 #contact {
-	padding-left: 50px;
-}
-
-.contact-info {
-	width: 480px;
 	padding-bottom: 22px;
+	padding-right: 60px;
+	padding-left: 60px;
 }
 
-.contact-info address {
+#contact address {
 	font-style: normal;
 }
 
-.contact-info .column {
+#contact .column {
 	border-left: solid 1px #666;
-	padding-left: 20px;
+	padding-left: 30px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
 
-.contact-info .column:first-child {
+#contact .column:first-child {
 	border-left: none;
 	padding-left: 0;
+}
+
+#socialMedia {
+	padding: 24px 0 36px 0;
+}
+
+.social-media-link {
+	display: inline-block;
+	width: 40px;
+	margin: 0 4px;
+}
+
+.social-media-link img {
+	width: 100%;
+}
+
+#templateFooter {
+	background-color: #BBB;
 }
